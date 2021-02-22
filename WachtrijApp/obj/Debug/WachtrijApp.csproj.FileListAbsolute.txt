@@ -1,0 +1,12 @@
+C:\git\WachtrijApp\WachtrijApp\bin\Debug\SensorData\AttractieStatus.xml
+C:\git\WachtrijApp\WachtrijApp\bin\Debug\SensorData\WachtrijSensoren.xml
+C:\git\WachtrijApp\WachtrijApp\bin\Debug\WachtrijApp.exe.config
+C:\git\WachtrijApp\WachtrijApp\bin\Debug\WachtrijApp.exe
+C:\git\WachtrijApp\WachtrijApp\bin\Debug\WachtrijApp.pdb
+C:\git\WachtrijApp\WachtrijApp\obj\Debug\WachtrijApp.csprojAssemblyReference.cache
+C:\git\WachtrijApp\WachtrijApp\obj\Debug\WachtrijApp.FormWachtrij.resources
+C:\git\WachtrijApp\WachtrijApp\obj\Debug\WachtrijApp.Properties.Resources.resources
+C:\git\WachtrijApp\WachtrijApp\obj\Debug\WachtrijApp.csproj.GenerateResource.cache
+C:\git\WachtrijApp\WachtrijApp\obj\Debug\WachtrijApp.csproj.CoreCompileInputs.cache
+C:\git\WachtrijApp\WachtrijApp\obj\Debug\WachtrijApp.exe
+C:\git\WachtrijApp\WachtrijApp\obj\Debug\WachtrijApp.pdb
