@@ -37,6 +37,21 @@ namespace WachtrijApp
             //  Lees het XML WachtrijSensoren bestand uit welke meet waar mensen staan te wachten.
             XmlDocument doc = new XmlDocument();
             doc.Load("SensorData\\WachtrijSensoren.xml");
+            
+            
+            // foreach (XmlNode childNode in doc.DocumentElement.SelectSingleNode("/Sensoren").ChildNodes)
+            // {
+            //     string text = childNode.InnerText;
+            //     if (text == "False")
+            //     {
+            //         return Wachttijd;
+            //     }
+            //
+            //     Wachttijd += 5;
+            // }
+            //
+            // return Wachttijd;
+
 
             //  Selecteer de XML node 'Sensor01' en lees vervolgens de waarde binnen het element.
             //  Wanneer de sensor geen mensen detecteerd, geef de tot nu to berekende wachttijd terug.
@@ -47,56 +62,57 @@ namespace WachtrijApp
                 return Wachttijd;
             }
             Wachttijd += 10;
-
+            
             string node02 = doc.DocumentElement.SelectSingleNode("/Sensoren/Sensor02").InnerText;
             if (node02 == "False")
             {
                 return Wachttijd;
             }
             Wachttijd += 5;
-
+            
             string node03 = doc.DocumentElement.SelectSingleNode("/Sensoren/Sensor03").InnerText;
             if (node03 == "False")
             {
                 return Wachttijd;
             }
             Wachttijd += 5;
-
+            
             string node04 = doc.DocumentElement.SelectSingleNode("/Sensoren/Sensor04").InnerText;
             if (node04 == "False")
             {
                 return Wachttijd;
             }
             Wachttijd += 5;
-
+            
             string node05 = doc.DocumentElement.SelectSingleNode("/Sensoren/Sensor05").InnerText;
             if (node05 == "False")
             {
                 return Wachttijd;
             }
             Wachttijd += 5;
-
+            
             string node06 = doc.DocumentElement.SelectSingleNode("/Sensoren/Sensor06").InnerText;
             if (node06 == "False")
             {
                 return Wachttijd;
             }
             Wachttijd += 5;
-
+            
+            
             string node07 = doc.DocumentElement.SelectSingleNode("/Sensoren/Sensor07").InnerText;
             if (node07 == "False")
             {
                 return Wachttijd;
             }
             Wachttijd += 5;
-
+            
             string node08 = doc.DocumentElement.SelectSingleNode("/Sensoren/Sensor08").InnerText;
             if (node08 == "False")
             {
                 return Wachttijd;
             }
             Wachttijd += 5;
-
+            
             return Wachttijd;
         }
 
@@ -121,24 +137,16 @@ namespace WachtrijApp
         //  Een methode welke een status-code omzet naar een status-beschrijving
         private string ConvertStatus(string StatusNr)
         {
-            if (StatusNr == "1")
+            switch (StatusNr)
             {
-                return "uit/instappen";
-            }
-
-            if (StatusNr == "2")
-            {
-                return "Klaar voor vertrek";
-            }
-
-            if (StatusNr == "3")
-            {
-                return "Op avontuur";
-            }
-
-            if (StatusNr == "4")
-            {
-                return "Komt binnen";
+                case "1":
+                    return "uit/instappen";
+                case "2":
+                    return "Klaar voor vertrek";
+                case "3":
+                    return "Op avontuur";
+                case "4":
+                    return "Komt binnen";
             }
 
             return "";
