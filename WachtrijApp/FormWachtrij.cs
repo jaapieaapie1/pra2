@@ -24,7 +24,7 @@ namespace WachtrijApp
         private void VerwerkWachtrijSensorData()
         {
             //  Roep de methode aan welke de wachttijd berekend.
-            int Wachttijd = BerekenWachttijd();
+            double Wachttijd = BerekenWachttijd();
 
             //  Gebruik de wachttijd om de tekst in de label 'labelWachttijdMelding' aan te passen.
             this.labelWachttijdMelding.Text = $"{Wachttijd} minuten";
@@ -32,9 +32,9 @@ namespace WachtrijApp
 
         //  Deze methode leest de sensordata in het betreffende XML bestand.
         //  Deze methode berekend vervolgens de de wachttijd in minuten en geeft deze terug.
-        private int BerekenWachttijd()
+        private double BerekenWachttijd()
         {
-            int Wachttijd = 0;
+            double Wachttijd = 0;
 
             //  Lees het XML WachtrijSensoren bestand uit welke meet waar mensen staan te wachten.
             XmlDocument doc = new XmlDocument();
@@ -48,7 +48,7 @@ namespace WachtrijApp
                     return Wachttijd;
                 }
             
-                Wachttijd += Convert.ToInt32(childNode.Attributes["time"].Value);
+                Wachttijd += Convert.ToDouble(childNode.Attributes["time"].Value);
             }
             
             return Wachttijd;
