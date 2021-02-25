@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Windows.Forms;
+using System.Windows.Forms.VisualStyles;
 using System.Xml;
 
 namespace WachtrijApp
@@ -38,12 +40,11 @@ namespace WachtrijApp
             XmlDocument doc = new XmlDocument();
             doc.Load("SensorData\\WachtrijSensoren.xml");
 
-
             foreach (XmlNode childNode in doc.DocumentElement.SelectSingleNode("/Sensoren").ChildNodes)
             {
                 string text = childNode.InnerText;
-                if (text == "False")
-                {
+                if (text.ToLower() == "false")
+                {                    
                     return Wachttijd;
                 }
             
@@ -84,6 +85,8 @@ namespace WachtrijApp
                     return "Op avontuur";
                 case "4":
                     return "Komt binnen";
+                case "5":
+                    return "In onderhoud";
             }
 
             return "";
