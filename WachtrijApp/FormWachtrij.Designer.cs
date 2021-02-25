@@ -56,7 +56,7 @@
             // 
             this.labelWachttijd.AutoSize = true;
             this.labelWachttijd.Font = new System.Drawing.Font("Inter", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelWachttijd.Location = new System.Drawing.Point(25, 158);
+            this.labelWachttijd.Location = new System.Drawing.Point(25, 164);
             this.labelWachttijd.Name = "labelWachttijd";
             this.labelWachttijd.Size = new System.Drawing.Size(106, 25);
             this.labelWachttijd.TabIndex = 4;
@@ -90,7 +90,7 @@
             this.labelKar2.AutoSize = true;
             this.labelKar2.BackColor = System.Drawing.Color.Pink;
             this.labelKar2.Font = new System.Drawing.Font("Inter", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelKar2.Location = new System.Drawing.Point(29, 108);
+            this.labelKar2.Location = new System.Drawing.Point(29, 96);
             this.labelKar2.Name = "labelKar2";
             this.labelKar2.Size = new System.Drawing.Size(63, 18);
             this.labelKar2.TabIndex = 8;
@@ -102,7 +102,7 @@
             this.labelKar1.BackColor = System.Drawing.Color.Pink;
             this.labelKar1.Font = new System.Drawing.Font("Inter", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelKar1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.labelKar1.Location = new System.Drawing.Point(29, 85);
+            this.labelKar1.Location = new System.Drawing.Point(29, 72);
             this.labelKar1.Name = "labelKar1";
             this.labelKar1.Size = new System.Drawing.Size(63, 18);
             this.labelKar1.TabIndex = 9;
@@ -114,7 +114,7 @@
             this.labelKar3.AutoSize = true;
             this.labelKar3.BackColor = System.Drawing.Color.Pink;
             this.labelKar3.Font = new System.Drawing.Font("Inter", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelKar3.Location = new System.Drawing.Point(29, 131);
+            this.labelKar3.Location = new System.Drawing.Point(29, 120);
             this.labelKar3.Name = "labelKar3";
             this.labelKar3.Size = new System.Drawing.Size(63, 18);
             this.labelKar3.TabIndex = 10;
