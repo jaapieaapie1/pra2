@@ -17,8 +17,6 @@
 .dotnet/
 .packages/
 
-WachtrijApp/bin/
-WachtrijApp/obj/
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
