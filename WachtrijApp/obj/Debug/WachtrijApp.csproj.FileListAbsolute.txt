@@ -22,3 +22,15 @@ C:\Users\Melm\Documents\GitHub\pra2\WachtrijApp\obj\Debug\WachtrijApp.csproj.Gen
 C:\Users\Melm\Documents\GitHub\pra2\WachtrijApp\obj\Debug\WachtrijApp.csproj.CoreCompileInputs.cache
 C:\Users\Melm\Documents\GitHub\pra2\WachtrijApp\obj\Debug\WachtrijApp.exe
 C:\Users\Melm\Documents\GitHub\pra2\WachtrijApp\obj\Debug\WachtrijApp.pdb
+D:\school\pra2\WachtrijApp\bin\Debug\SensorData\AttractieStatus.xml
+D:\school\pra2\WachtrijApp\bin\Debug\SensorData\WachtrijSensoren.xml
+D:\school\pra2\WachtrijApp\bin\Debug\WachtrijApp.exe.config
+D:\school\pra2\WachtrijApp\bin\Debug\WachtrijApp.exe
+D:\school\pra2\WachtrijApp\bin\Debug\WachtrijApp.pdb
+D:\school\pra2\WachtrijApp\obj\Debug\WachtrijApp.csprojAssemblyReference.cache
+D:\school\pra2\WachtrijApp\obj\Debug\WachtrijApp.FormWachtrij.resources
+D:\school\pra2\WachtrijApp\obj\Debug\WachtrijApp.Properties.Resources.resources
+D:\school\pra2\WachtrijApp\obj\Debug\WachtrijApp.csproj.GenerateResource.cache
+D:\school\pra2\WachtrijApp\obj\Debug\WachtrijApp.csproj.CoreCompileInputs.cache
+D:\school\pra2\WachtrijApp\obj\Debug\WachtrijApp.exe
+D:\school\pra2\WachtrijApp\obj\Debug\WachtrijApp.pdb
