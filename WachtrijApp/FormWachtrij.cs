@@ -14,7 +14,7 @@ namespace WachtrijApp
         }
 
         //  Er is op het logo geklikt. Die actie start een event welke de onderstaande methode aanroept.
-        private void AttractieLogo_Click(object sender, EventArgs e)
+        private void AttractieLogo2_Click(object sender, EventArgs e)
         {
             VerwerkWachtrijSensorData();
 
@@ -101,8 +101,26 @@ namespace WachtrijApp
 
         }
 
+        private int clickCounter = 0;
+
         private void labelTitel_Click(object sender, EventArgs e)
         {
+            clickCounter_click();
+        }
+
+        private void labelWachtijd_doubleClick(object sender, EventArgs e)
+        {
+            clickCounter_click();
+            clickCounter_click();
+        }
+
+        private void clickCounter_click()
+        {
+            clickCounter++;
+            if (clickCounter == 3)
+            {
+                this.labelTitel.ForeColor = System.Drawing.Color.BlueViolet;
+            }
 
         }
 
@@ -120,5 +138,7 @@ namespace WachtrijApp
         {
 
         }
+
+        
     }
 }

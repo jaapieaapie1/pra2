@@ -43,11 +43,11 @@
             // 
             this.labelTitel.AutoSize = true;
             this.labelTitel.BackColor = System.Drawing.Color.Transparent;
-            this.labelTitel.Font = new System.Drawing.Font("Inter", 18.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTitel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTitel.ForeColor = System.Drawing.Color.Black;
             this.labelTitel.Location = new System.Drawing.Point(25, 36);
             this.labelTitel.Name = "labelTitel";
-            this.labelTitel.Size = new System.Drawing.Size(151, 30);
+            this.labelTitel.Size = new System.Drawing.Size(148, 29);
             this.labelTitel.TabIndex = 0;
             this.labelTitel.Text = "Debug Hero";
             this.labelTitel.Click += new System.EventHandler(this.labelTitel_Click);
@@ -55,19 +55,20 @@
             // labelWachttijd
             // 
             this.labelWachttijd.AutoSize = true;
-            this.labelWachttijd.Font = new System.Drawing.Font("Inter", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelWachttijd.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelWachttijd.Location = new System.Drawing.Point(25, 164);
             this.labelWachttijd.Name = "labelWachttijd";
-            this.labelWachttijd.Size = new System.Drawing.Size(106, 25);
+            this.labelWachttijd.Size = new System.Drawing.Size(101, 25);
             this.labelWachttijd.TabIndex = 4;
             this.labelWachttijd.Text = "Wachttijd";
             this.labelWachttijd.Click += new System.EventHandler(this.labelWachttijd_Click);
+            this.labelWachttijd.DoubleClick += new System.EventHandler(this.labelWachtijd_doubleClick);
             // 
             // labelWachttijdMelding
             // 
             this.labelWachttijdMelding.AutoSize = true;
             this.labelWachttijdMelding.BackColor = System.Drawing.Color.Pink;
-            this.labelWachttijdMelding.Font = new System.Drawing.Font("Inter", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelWachttijdMelding.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelWachttijdMelding.Location = new System.Drawing.Point(29, 192);
             this.labelWachttijdMelding.Name = "labelWachttijdMelding";
             this.labelWachttijdMelding.Size = new System.Drawing.Size(72, 18);
@@ -83,13 +84,13 @@
             this.AttractieLogo.Size = new System.Drawing.Size(167, 170);
             this.AttractieLogo.TabIndex = 6;
             this.AttractieLogo.TabStop = false;
-            this.AttractieLogo.Click += new System.EventHandler(this.AttractieLogo_Click);
+            this.AttractieLogo.Click += new System.EventHandler(this.AttractieLogo2_Click);
             // 
             // labelKar2
             // 
             this.labelKar2.AutoSize = true;
             this.labelKar2.BackColor = System.Drawing.Color.Pink;
-            this.labelKar2.Font = new System.Drawing.Font("Inter", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelKar2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelKar2.Location = new System.Drawing.Point(29, 96);
             this.labelKar2.Name = "labelKar2";
             this.labelKar2.Size = new System.Drawing.Size(63, 18);
@@ -100,7 +101,7 @@
             // 
             this.labelKar1.AutoSize = true;
             this.labelKar1.BackColor = System.Drawing.Color.Pink;
-            this.labelKar1.Font = new System.Drawing.Font("Inter", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelKar1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelKar1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.labelKar1.Location = new System.Drawing.Point(29, 72);
             this.labelKar1.Name = "labelKar1";
@@ -113,7 +114,7 @@
             // 
             this.labelKar3.AutoSize = true;
             this.labelKar3.BackColor = System.Drawing.Color.Pink;
-            this.labelKar3.Font = new System.Drawing.Font("Inter", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelKar3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelKar3.Location = new System.Drawing.Point(29, 120);
             this.labelKar3.Name = "labelKar3";
             this.labelKar3.Size = new System.Drawing.Size(63, 18);
